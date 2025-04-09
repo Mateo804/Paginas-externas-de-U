@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSIDAD EL BOSQUE</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<style>
+    *{
+        font-family: Helvetica, sans-serif;
+    }
+</style>
+<body>
+    <div style="display: flex; width: 92%; padding: 0 50px 0 50px; justify-content: space-between;">
+        <div style="display: flex; gap: 18px;">
+            <div>Estudiantes</div> |
+            <div>Docentes</div> |
+            <div>Administrativos</div> 
+        </div>
+        <div style="display: flex; gap: 18px;">   
+            <div>Pagos</div> |
+            <div>Accesibilidad</div> |
+            <div> <i class="fa-solid fa-earth-americas icono" onclick="toggleMenu()"></i> 🇪🇸
+                <div class="menu-idioma" id="menuIdioma">
+                    <a href="#">English</a>
+                    <a href="#">Français</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div style=" display: flex; padding: 0 50px 0 50px;">
+        <div style="width: 18%;">
+            <img src="https://artemisa.unbosque.edu.co/serviciosacademicos/consulta/educacioncontinuada/certificadodiploma/assets/imgs/logoUniversidadElBosque.png" width="100%">
+        </div>
+        <div style="display: flex; padding: 0 10px 0 12px; gap: 65px; align-items: center;">
+            <div>Inscripciones</div>
+            <div class="nav">Programas Académicos</div>
+            <div>Facultades</div>
+            <div class="nav">Vida Universitaria</div>
+            <div>Investigación</div>
+            <div class="nav">Nuestro Bosque</div>
+            <div class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menuIdioma");
+          menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        document.addEventListener("click", function(event) {
+          const icono = document.querySelector(".icono");
+          const menu = document.getElementById("menuIdioma");
+          if (!icono.contains(event.target) && !menu.contains(event.target)) {
+            menu.style.display = "none";
+          }
+        });
+      </script>
+</body>
+</html>

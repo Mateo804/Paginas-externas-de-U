@@ -1,0 +1,28 @@
+.menu-idioma {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.menu-idioma a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-idioma a:hover {
+    background-color: #f1f1f1;
+}
+.nav{
+    flex-wrap: wrap;
+    width: 8%;
+}
+.icon-search{
+    color: orange;
+}
