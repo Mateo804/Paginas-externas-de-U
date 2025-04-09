@@ -13,13 +13,13 @@
     }
 </style>
 <body>
-    <div style="display: flex; width: 92%; padding: 0 50px 0 50px; justify-content: space-between;">
+    <div class="flex" style="width: 92%; padding: 0 50px 0 50px; justify-content: space-between; background-color: rgb(252, 249, 249);">
         <div style="display: flex; gap: 18px;">
             <div>Estudiantes</div> |
             <div>Docentes</div> |
             <div>Administrativos</div> 
         </div>
-        <div style="display: flex; gap: 18px;">   
+        <div class="flex" style="gap: 18px;">   
             <div>Pagos</div> |
             <div>Accesibilidad</div> |
             <div> <i class="fa-solid fa-earth-americas icono" onclick="toggleMenu()"></i> 🇪🇸
@@ -30,11 +30,11 @@
             </div>
         </div>
     </div>
-    <div style=" display: flex; padding: 0 50px 0 50px;">
+    <div class="flex" style="padding: 0 50px 0 50px;">
         <div style="width: 18%;">
             <img src="https://artemisa.unbosque.edu.co/serviciosacademicos/consulta/educacioncontinuada/certificadodiploma/assets/imgs/logoUniversidadElBosque.png" width="100%">
         </div>
-        <div style="display: flex; padding: 0 10px 0 12px; gap: 65px; align-items: center;">
+        <div class="flex" style="padding: 0 10px 0 12px; gap: 65px; align-items: center;">
             <div>Inscripciones</div>
             <div class="nav">Programas Académicos</div>
             <div>Facultades</div>
@@ -44,6 +44,25 @@
             <div class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
     </div>
+    <div class="flex" style="height: 400px;">
+        <img src="https://www.unbosque.edu.co/sites/default/files/2025-03/Banner-home%20normal%201140x450.png" width="100%">
+    </div>
+    <div style="padding: 50px 50px 0 50px;">
+        <div class="flex" style="border-radius: 20px; background-color: rgb(1, 40, 32); gap: 40px; height: 100px; justify-content: center; align-items: center;
+        color: white;">
+            <div><i style="color: rgb(144, 255, 0);" class="fa-regular fa-calendar"></i></div>
+            <div>Calendario Institucional</div>
+            <div><i style="color: rgb(144, 255, 0);" class="fa-solid fa-graduation-cap"></i></div>
+            <div>Educación Continua</div>
+            <div><i style="color: rgb(144, 255, 0);" class="fa-solid fa-globe"></i></div>
+            <div>Centro de Lenguas</div>
+            <div><i style="color: rgb(144, 255, 0);" class="fa-solid fa-book-open"></i></div>
+            <div>Biblioteca</div>
+            <div><i style="color: rgb(144, 255, 0);" class="fa-solid fa-desktop"></i></div>
+            <div>HUB-iES</div>
+        </div>
+    </div>
+    
     <script>
         function toggleMenu() {
           var menu = document.getElementById("menuIdioma");
@@ -58,5 +77,60 @@
           }
         });
       </script>
+      <footer class="footer-ueb">
+        <div class="footer-col logo">
+          <img src="https://www.unbosque.edu.co/sites/default/files/2024-09/logo-footer.svg" alt="Universidad El Bosque" />
+          <p>Vigilada Mineducación. Personería Jurídica otorgada mediante resolución 11153 del 4 de agosto de 1978.</p>
+          <p>Conéctate con la UEB<br><span class="hashtag">#ViveElBosque</span></p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-x-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      
+        <div class="footer-col contacto">
+          <h3>Información de contacto</h3>
+          <p><strong>Instalaciones Bogotá</strong><br>
+          Av. Cra. 9 No. 131 A - 02<br>
+          PBX: <span class="verde">(601) 648 9000</span><br>
+          <span class="verde">atencionalusuario@unbosque.edu.co</span></p>
+      
+          <p><strong>Instalaciones Chía</strong><br>
+          Autopista Norte Km. 20, Chía - Bogotá<br>
+          PBX: (601) 676 3110</p>
+      
+          <p><strong>Admisiones</strong><br>
+          Tel: (601) 648 9000 ext. 1170<br>
+          WhatsApp: <span class="verde">(+57) 311 512 8420</span><br>
+          <span class="verde">gestionadmisiones@unbosque.edu.co</span></p>
+      
+          <p><strong>Horario de atención</strong><br>
+          Lunes a Viernes 8:00 a.m. a 6:00 p.m.<br>
+          Sábados 8:30 a.m. a 12:30 p.m.</p>
+        </div>
+      
+        <div class="footer-col legal">
+          <h3>Información legal</h3>
+          <ul>
+            <li>Estatuto General</li>
+            <li>Reglamento Estudiantil</li>
+            <li>Estatuto Docente</li>
+            <li>Valores Pecuniarios</li>
+            <li>Política de Bienestar Universitario</li>
+            <li>Información Tributaria</li>
+            <li>Aviso de Privacidad</li>
+            <li>Política de Tratamiento de Datos Personales</li>
+            <li>Términos y Condiciones</li>
+            <li>Transparencia y Acceso</li>
+            <li>PQRS El Bosque Te Escucha</li>
+            <li>Mapa del sitio</li>
+          </ul>
+        </div>
+      </footer>
+      
 </body>
 </html>

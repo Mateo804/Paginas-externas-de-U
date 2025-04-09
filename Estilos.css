@@ -26,3 +26,61 @@
 .icon-search{
     color: orange;
 }
+
+.flex{
+    display: flex; 
+}
+
+.footer-ueb {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #00231b;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+  
+.footer-col {
+    flex: 1;
+    min-width: 280px;
+    margin: 20px;
+}
+  
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.footer-col p,
+.footer-col li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+  
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-col .verde {
+    color: rgb(144, 255, 0);
+}
+  
+.footer-col .hashtag {
+    color: rgb(144, 255, 0);
+    font-weight: bold;
+}
+  
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+  
+.social-icons i {
+    font-size: 20px;
+    color: rgb(144, 255, 0);
+    cursor: pointer;
+}  
