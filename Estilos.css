@@ -22,6 +22,8 @@
 .nav{
     flex-wrap: wrap;
     width: 8%;
+    text-decoration: none; 
+    color: black;
 }
 .icon-search{
     color: orange;
