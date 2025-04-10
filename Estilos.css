@@ -33,6 +33,18 @@
     display: flex; 
 }
 
+.calendar{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(1, 40, 32);
+    gap: 25px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
 .footer-ueb {
     display: flex;
     justify-content: space-between;
@@ -86,3 +98,42 @@
     color: rgb(144, 255, 0);
     cursor: pointer;
 }  
+
+.barra-lateral{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
+.imag-post{
+    height: 100%;
+    width: 83%;
+    padding: 0 0 0 100px;
+}
+
+.inscribete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255, 102, 0);
+    width: 770px;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.inscribete-letra{
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px;
+    font-size: 32px;
+    padding: 0 0 0 50px;
+}
+
+.inscribete-icon{
+    color: white;
+    padding: 0 50px 0 0;
+    font-size: 35px;
+}
