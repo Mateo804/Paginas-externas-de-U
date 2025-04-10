@@ -31,12 +31,10 @@
 
 .flex{
     display: flex; 
-    flex-wrap: wrap;
 }
 
 .calendar{
     display: flex;
-    flex-wrap: wrap;
     border-radius: 20px;
     background-color: rgb(1, 40, 32);
     gap: 25px;
@@ -49,7 +47,6 @@
 
 .footer-ueb {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #00231b;
@@ -92,7 +89,6 @@
   
 .social-icons {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
 }
@@ -105,7 +101,6 @@
 
 .barra-lateral{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 50px;
     align-items: center;
@@ -120,7 +115,6 @@
 
 .inscribete{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
@@ -146,7 +140,6 @@
 
 .institucional{
     display: flex;
-    flex-wrap: wrap;
     padding: 5px 15px;
     border: 2px solid #c78aff;
     border-radius: 999px;
@@ -162,7 +155,6 @@
 
 .barra{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -183,7 +175,6 @@
 
   .buscador {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: #f9f9f7;
     border-radius: 30px;
@@ -207,14 +198,12 @@
   .boton-verde {
     color: green;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     font-size: 30px;
   }
   
   .bloque-texto {
     display: flex;
-    flex-wrap: wrap;
     align-items: start;
     gap: 15px;
   }
@@ -254,6 +243,7 @@
   .contenedor-imagen {
     max-width: 500px;
     margin: 40px auto;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     align-items: center;
